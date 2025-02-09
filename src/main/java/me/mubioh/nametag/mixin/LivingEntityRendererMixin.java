@@ -17,7 +17,6 @@ public class LivingEntityRendererMixin {
             cancellable = true
     )
     private void viewOwnLabel(Entity entity, double squaredDistanceToCamera, CallbackInfoReturnable<Boolean> cir) {
-        if (entity == MinecraftClient.getInstance().cameraEntity) cir.setReturnValue(MinecraftClient.isHudEnabled());
+        if (entity == MinecraftClient.getInstance().player) cir.setReturnValue(MinecraftClient.isHudEnabled());
     }
-
 }

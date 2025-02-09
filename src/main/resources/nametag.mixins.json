@@ -2,8 +2,9 @@
   "required": true,
   "minVersion": "0.8",
   "package": "me.mubioh.nametag.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "mixins": [],
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
   "client": [
     "LivingEntityRendererMixin"
   ],
