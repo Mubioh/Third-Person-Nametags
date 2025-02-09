@@ -1,2 +1,3 @@
 # Third-Person-Nametags
-Shows a player their own nametag in F5.
+
+Third Person Nametags is a simple Fabric mod that makes your own nametag visible when playing in third-person view (F5).
