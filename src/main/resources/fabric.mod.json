@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "nametag",
+  "id": "thirdpersonnametags",
   "version": "${version}",
-  "name": "Nametag",
+  "name": "ThirdPersonNametags",
   "description": "Makes your nametag visible when playing in third-person mode.",
   "authors": [],
   "contact": {},
@@ -11,14 +11,14 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "me.mubioh.nametag.client.NametagClient"
+      "com.mubioh.thirdpersonnametags.client.ThirdpersonnametagsClient"
     ],
     "main": [
-      "me.mubioh.nametag.Nametag"
+      "com.mubioh.thirdpersonnametags.Thirdpersonnametags"
     ]
   },
   "mixins": [
-    "nametag.mixins.json"
+    "thirdpersonnametags.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

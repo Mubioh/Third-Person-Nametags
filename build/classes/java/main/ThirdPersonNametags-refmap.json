@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/mubioh/thirdpersonnametags/mixin/LivingEntityRendererMixin": {
+      "hasLabel(Lnet/minecraft/entity/LivingEntity;D)Z": "Lnet/minecraft/class_922;method_4055(Lnet/minecraft/class_1309;D)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/mubioh/thirdpersonnametags/mixin/LivingEntityRendererMixin": {
+        "hasLabel(Lnet/minecraft/entity/LivingEntity;D)Z": "Lnet/minecraft/class_922;method_4055(Lnet/minecraft/class_1309;D)Z"
+      }
+    }
+  }
+}

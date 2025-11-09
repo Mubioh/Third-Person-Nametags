@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "thirdpersonnametags",
+  "version": "1.4.3",
+  "name": "ThirdPersonNametags",
+  "description": "Makes your nametag visible when playing in third-person mode.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mubioh.thirdpersonnametags.client.ThirdpersonnametagsClient"
+    ],
+    "main": [
+      "com.mubioh.thirdpersonnametags.Thirdpersonnametags"
+    ]
+  },
+  "mixins": [
+    "thirdpersonnametags.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "fabric": "*",
+    "minecraft": "1.21.10"
+  }
+}
